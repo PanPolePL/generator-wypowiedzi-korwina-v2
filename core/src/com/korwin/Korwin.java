@@ -29,8 +29,7 @@ public class Korwin extends ApplicationAdapter {
 			wypowiedz[i]=" ";
 		}
 		for(int i=1; i<=6; i++) {
-			//file = new File(i+".txt");
-			file = new File("C:\\Users\\jakub\\OneDrive\\Dokumenty\\GitHub\\generator-wypowiedzi-korwina-v2\\"+i+".txt");
+			file = new File(i+".txt");
 			try {
 				scan = new Scanner(file);
 			} catch (java.io.FileNotFoundException e) {
